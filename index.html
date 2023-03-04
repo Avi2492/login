@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Luerur Tech</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Signup Page</h1>
+	</header>
+	<main>
+		<form id="signup-form">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" minlength="8" required>
+			<label for="confirm-password">Confirm Password:</label>
+			<input type="password" id="confirm-password" name="confirm-password" required>
+			<input type="submit" value="Signup">
+			<div class="error" id="error-message"></div>
+			<div class="message" id="success-message"></div>
+		</form>
+	</main>
+	<script src="index.js"></script>
+</body>
+</html>
